@@ -1,0 +1,91 @@
+{
+	"name": "tailwindcss-debug-ts",
+	"version": "0.0.1",
+	"description": "Tailwind CSS Debug TypeScript",
+	"main": "index.js",
+	"type": "module",
+	"module": "index.js",
+	"types": "index.d.ts",
+	"scripts": {
+		"build": "rollup -c",
+		"dev": "rollup -c -w",
+		"types": "tsc --declaration --emitDeclarationOnly",
+		"test": "jest --config jest.config.ts"
+	},
+	"keywords": [
+		"tailwindcss",
+		"debug",
+		"typescript"
+	],
+	"files": [
+		"dist"
+	],
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"require": "./dist/index.js"
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dirheimerb/tailwindcss-debug-ts.git"
+	},
+	"bugs": {
+		"url": "https://github.com/dirheimerb/tailwindcss-debug-ts/issues"
+	},
+	"homepage": "https://github.com/dirheimerb/tailwindcss-debug-ts#readme",
+	"author": "Bradley Dirheimer",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/preset-typescript": "^7.24.1",
+		"@rollup/plugin-alias": "^5.1.0",
+		"@rollup/plugin-commonjs": "^25.0.7",
+		"@rollup/plugin-json": "^6.1.0",
+		"@rollup/plugin-node-resolve": "^15.2.3",
+		"@rollup/plugin-swc": "^0.3.0",
+		"@rollup/plugin-terser": "^0.4.4",
+		"@types/jest": "^29.5.12",
+		"@types/node": "^20.12.7",
+		"autoprefixer": "^10.4.19",
+		"jest": "^29.7.0",
+		"postcss": "^8.4.38",
+		"prettier": "^3.2.5",
+		"rollup": "^4.17.0",
+		"rollup-plugin-livereload": "^2.0.5",
+		"rollup-plugin-postcss": "^4.0.2",
+		"rollup-plugin-serve": "^1.1.1",
+		"rollup-plugin-tailwindcss": "^1.0.0",
+		"rollup-plugin-typescript2": "^0.36.0",
+		"rollup-plugin-visualizer": "^5.12.0",
+		"tailwindcss": "^3.4.3",
+		"ts-jest": "^29.1.2",
+		"ts-node": "^10.9.2",
+		"tsconfig-paths": "^4.2.0",
+		"tsconfig-paths-jest": "^0.0.1",
+		"tsconfig-paths-webpack-plugin": "^4.1.0",
+		"tslib": "^2.6.2",
+		"tsx": "^4.7.3",
+		"typescript": "^5.4.5"
+	},
+	"packageManager": "pnpm@9.0.6+sha256.0624e30eff866cdeb363b15061bdb7fd9425b17bc1bb42c22f5f4efdea21f6b3",
+	"prettier": {
+		"singleQuote": true,
+		"semi": false,
+		"printWidth": 80
+	},
+	"jest": {
+		"preset": "ts-jest",
+		"testEnvironment": "node",
+		"transform": {
+			"^.+\\.tsx?$": "ts-jest"
+		},
+		"moduleFileExtensions": [
+			"ts",
+			"tsx",
+			"js",
+			"jsx",
+			"json",
+			"node"
+		]
+	}
+}

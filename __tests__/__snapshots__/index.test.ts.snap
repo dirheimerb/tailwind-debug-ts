@@ -1,0 +1,469 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`debugScreens plugin should generate CSS rules for custom screen 1`] = `
+"@media (min-width: 640px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: sm'
+}
+@media (min-width: 768px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: md'
+}
+@media (min-width: 1024px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: lg'
+}
+@media (min-width: 1280px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: xl'
+}
+@media (min-width: 1600px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: xxl'
+}
+@media (min-width: 640px; max-width: 640px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: sm'
+}
+@media (min-width: 768px; max-width: 768px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: md'
+}
+@media (min-width: 1024px; max-width: 1024px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: lg'
+}
+@media (min-width: 1280px; max-width: 1280px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: xl'
+}
+@media (; ) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: xxl'
+}"
+`;
+
+exports[`debugScreens plugin should generate CSS rules for custom screen with custom position 1`] = `
+"@media (min-width: 640px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: sm'
+}
+@media (min-width: 768px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: md'
+}
+@media (min-width: 1024px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: lg'
+}
+@media (min-width: 1280px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: xl'
+}
+@media (min-width: 1600px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: xxl'
+}
+@media (min-width: 640px; max-width: 640px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: sm'
+}
+@media (min-width: 768px; max-width: 768px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: md'
+}
+@media (min-width: 1024px; max-width: 1024px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: lg'
+}
+@media (min-width: 1280px; max-width: 1280px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: xl'
+}
+@media (; ) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: xxl'
+}"
+`;
+
+exports[`debugScreens plugin should generate CSS rules for custom screen with custom prefix 1`] = `
+"@media (min-width: 640px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen-sm'
+}
+@media (min-width: 768px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen-md'
+}
+@media (min-width: 1024px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen-lg'
+}
+@media (min-width: 1280px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen-xl'
+}
+@media (min-width: 1600px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen-xxl'
+}
+@media (min-width: 640px; max-width: 640px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen-sm'
+}
+@media (min-width: 768px; max-width: 768px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen-md'
+}
+@media (min-width: 1024px; max-width: 1024px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen-lg'
+}
+@media (min-width: 1280px; max-width: 1280px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen-xl'
+}
+@media (; ) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen-xxl'
+}"
+`;
+
+exports[`debugScreens plugin should generate CSS rules for default screen 1`] = `
+"@media (min-width: 640px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: sm'
+}
+@media (min-width: 768px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: md'
+}
+@media (min-width: 1024px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: lg'
+}
+@media (min-width: 1280px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: xl'
+}
+@media (min-width: 640px; max-width: 640px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: sm'
+}
+@media (min-width: 768px; max-width: 768px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: md'
+}
+@media (min-width: 1024px; max-width: 1024px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: lg'
+}
+@media (min-width: 1280px; max-width: 1280px) {
+    position: fixed;
+    z-index: 2147483647;
+    -padding: .3333333em .5em;
+    font-size: 12px;
+    line-height: 1;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff;
+    content: 'screen: xl'
+}"
+`;

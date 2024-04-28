@@ -1,0 +1,26 @@
+dist
+.tsbuildinfo
+pnpm-lock.yaml
+yarn.lock
+node_modules 
+coverage
+build
+*.log
+# Env
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Others
+*.log
+*.bak
+*.swp
+*.tmp
+*.sublime-workspace
+*.sublime-project
