@@ -26,11 +26,11 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require('./path/to/debugScreens')],
+  plugins: [require('tailwindcss-debug-ts')],
 };
 ```
 
-Replace `./path/to/debugScreens` with the actual path to the plugin file.
+Replace `tailwindcss-debug-ts` with the actual path to the plugin file.
 
 ### Step 3: Setup Jest
 

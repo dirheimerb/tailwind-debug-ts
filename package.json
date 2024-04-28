@@ -2,10 +2,10 @@
 	"name": "tailwindcss-debug-ts",
 	"version": "0.0.1",
 	"description": "Tailwind CSS Debug TypeScript",
-	"main": "index.js",
+	"main": "./dist/index.esm.js",
 	"type": "module",
-	"module": "index.js",
-	"types": "index.d.ts",
+	"module": "./dist/index.esm.js",
+	"types": "./dist/index.d.ts",
 	"scripts": {
 		"build": "rollup -c",
 		"dev": "rollup -c -w",
@@ -18,12 +18,15 @@
 		"typescript"
 	],
 	"files": [
-		"dist"
+		"dist/*",
+		"index.d.ts",
+		"index.js",
+		"index.esm.js"
 	],
 	"exports": {
 		".": {
-			"import": "./dist/index.js",
-			"require": "./dist/index.js"
+			"import": "./dist/index.esm.js",
+			"require": "./dist/index.esm.js"
 		}
 	},
 	"repository": {
@@ -51,18 +54,13 @@
 		"postcss": "^8.4.38",
 		"prettier": "^3.2.5",
 		"rollup": "^4.17.0",
-		"rollup-plugin-livereload": "^2.0.5",
 		"rollup-plugin-postcss": "^4.0.2",
-		"rollup-plugin-serve": "^1.1.1",
 		"rollup-plugin-tailwindcss": "^1.0.0",
 		"rollup-plugin-typescript2": "^0.36.0",
-		"rollup-plugin-visualizer": "^5.12.0",
 		"tailwindcss": "^3.4.3",
 		"ts-jest": "^29.1.2",
 		"ts-node": "^10.9.2",
 		"tsconfig-paths": "^4.2.0",
-		"tsconfig-paths-jest": "^0.0.1",
-		"tsconfig-paths-webpack-plugin": "^4.1.0",
 		"tslib": "^2.6.2",
 		"tsx": "^4.7.3",
 		"typescript": "^5.4.5"
@@ -87,5 +85,12 @@
 			"json",
 			"node"
 		]
+	},
+	"pnpm": {
+		"overrides": {
+			"postcss@>=7.0.0 <7.0.36": ">=7.0.36",
+			"postcss@<7.0.36": ">=7.0.36",
+			"postcss@<8.4.31": ">=8.4.31"
+		}
 	}
 }
